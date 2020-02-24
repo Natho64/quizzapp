@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-rows: 100%;
+    line-height: 2em;
+    height: 40em;
+}
+
+.main_body {
+    background-color: cadetblue;
+    color: crimson;
+
+}
+.header {
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-weight: 700;
+}
+
+.name_reg {
+    text-align: center;
+}
+.name_reg h2 {
+    text-transform: capitalize;
+    margin-top: 3em;
+    margin-bottom: 2rem;
+}
+
+.reg_form {
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 3em;
+    text-align: center;
+}
+.reg_form input {
+    height: 2.5em;
+    width: 25em;
+    background-color: rgb(86, 98, 99);
+    color: #fff;
+    font-size: 1em;
+    border: firebrick 0.625em solid;
+    margin:1em;
+    
+}
+
+.options_des {
+    font-size: 1em;
+    padding: 0.5em;
+
+}
+
+.submit {
+    background-color: #fff;
+    font-size: 2em;
+    text-transform: capitalize;
+    color: darkslategrey;
+    border-radius: 1em;
+    letter-spacing: .2em;
+    padding: .2em;
+
+}
+.submit:hover {
+    scale: 1.2;
+    color: #fff;
+    background-color: darkslategrey;
+    cursor: grab;
+}
+
+
+.footer {
+    text-align: center;
+}
+/* end of homepage */
+
+
+
+.question_number {
+    font-size: 5em;
+}
+
+
+
+.submit_ans {
+
+    background-color: #fff;
+    font-size: 2em;
+    text-transform: capitalize;
+    color: darkslategrey;
+    border-radius: 1em;
+    letter-spacing: .2em;
+    padding: .2em;
+}
+
+.submit_ans:hover {
+    scale: 1.2;
+    color: #fff;
+    background-color: darkslategrey;
+    cursor: pointer;
+
+}
+.prev_next {
+    margin: 1em;
+    padding: 1em;
+}
+.prev {
+    color: firebrick;
+    font-size: 2em;
+    margin: 1em;
+    border-radius: .2em;
+    text-transform: capitalize;
+    letter-spacing: .2em;
+}
+.prev:hover {
+    color:#fff;
+    background-color: firebrick;
+    cursor: grab;
+}
+.next {
+    color: firebrick;
+    font-size: 2em;
+    margin: 1em;
+    border-radius: .2em;
+    text-transform: capitalize;
+    letter-spacing: .2em;
+}
+.next:hover {
+    color:#fff;
+    background-color: firebrick;
+    cursor: grab;
+
+}
